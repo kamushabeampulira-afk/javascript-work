@@ -44,7 +44,7 @@ return recordIds;
 }
 // Test Case
 const data1 = [1, 3, 4, 6, 7, 9, 10];
-const cleaned1 = cleanDatabase(...data1);
+const cleaned1 = cleanDatabase(data1);
 
 console.log("Final Array:", cleaned1);
 
